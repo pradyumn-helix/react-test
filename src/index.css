@@ -10,4 +10,15 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  }
+
+
+.horizontal{
+  display: flex;
+  flex-direction: row;
+}
+
+.my_scroll_div{
+  overflow-x: auto;
+  max-width: 90%;
 }
